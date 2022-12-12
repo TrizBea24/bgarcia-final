@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
       <Navbar
-        fixed="top"
+        sticky="top"
         className="navbar px-5 py-4"
         id="navbar"
         expand="lg"
@@ -38,9 +38,9 @@ const Header = () => {
           <NavbarToggle />
           <NavbarCollapse className="justify-content-end">
             <Nav className="navbar-right">
-              <Button className="navbar-right__themecolor">
+              {/* <Button className="navbar-right__themecolor">
                 Cambio de contraste
-              </Button>
+              </Button> */}
               <NavLink className="navbar-right__item mx-3 text-decoration-none" smooth to="#aboutme">
                 About me
               </NavLink>
@@ -50,6 +50,11 @@ const Header = () => {
               <NavLink className="navbar-right__item mx-3 text-decoration-none" smooth to="#footer">
                 Contact
               </NavLink>
+              <a href="Resume_FullStack_Beatriz.pdf" target="_blank" rel="noopener noreferrer">
+                <Button className="navbar-right__item mx-3 text-decoration-none">
+                  Resume
+                </Button>
+              </a>
             </Nav>
           </NavbarCollapse>
         </Container>
