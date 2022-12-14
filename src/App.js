@@ -1,22 +1,19 @@
+import React, { useState } from "react";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import AboutMe from "./components/AboutMe";
-import ProjectsContainer from "./components/ProjectsContainer";
+import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Pruebas from "./components/pruebas";
 import { Container } from "react-bootstrap";
+import data from "./server/data";
 
 
 function App() {
+  const [projects] = useState(data);
 
   return (
     <>
       <Header />
       <Container>
-        <Hero />
-        <AboutMe />
-        <ProjectsContainer />
-        <Pruebas />
+        <Main data={projects} />
         <Footer />
       </Container>
     </>

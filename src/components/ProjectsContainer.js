@@ -1,19 +1,23 @@
-import React from 'react'
+import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import ProjectCards from "./ProjectCards"
-
+import ProjectCard from "./ProjectCard";
 
 const ProjectsContainer = (props) => {
+  const projectsContainer = props.data.map((projectItem)  => {
+    return (
+      <article className="projects__content" key={projectItem.id}>
+        <ProjectCard projectItem={projectItem} />
+      </article>
+    )
+  });
+  
   return (
-    <Row xs={1} md={2} className="g-4">
-      {Array.from({ length: 4 }).map((_, idx) => (
-        <Col>
-          <ProjectCards />
-        </Col>
-      ))}
-    </Row>
-  )
+    <section className="projects" id="projects">
+      <h2 className="projects__title">Projects</h2>
+      <div className="projects__wrapper">{projectsContainer}</div>
+    </section>
+  );
 }
 
 export default ProjectsContainer
