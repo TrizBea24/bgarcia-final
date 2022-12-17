@@ -1,0 +1,47 @@
+@import "./colors";
+@import "./mixins";
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    height: auto;
+    width: 100%;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    background-color: $secondary;
+    height: 100px;
+
+    &-text {
+      width: auto;
+    }
+    
+    &-title {
+      color: $lightpink;
+      font-size:larger;
+      width: 100%;
+    }
+
+    &-skills {
+      display: flex;
+      flex-direction: row;
+      color: $lightpink;
+      font-size: 1.20rem;
+    }
+
+    &-link {
+      display: flex;
+      justify-content: flex-end;
+      width: 10px;
+
+      .svg-inline--fa {
+        height: 2.25rem;
+        color: $text;
+      }
+    }
+  }
+}

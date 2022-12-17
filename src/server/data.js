@@ -1,12 +1,14 @@
 import BooksFinderImg from "../images/01-books-finder.PNG";
+import Landing from "../images/02-landing.png";
 import Api from "../images/03-api.png";
+import Form from "../images/04-form.png";
 
 const DATA = [
   {
     id: 1,
     title: "Books finder",
     image: BooksFinderImg,
-    skills: ["HTML", "Tailwind", "REACT"],
+    skills: "HTML, Tailwind, React",
     githubLink: "https://github.com/TrizBea24/books-finder",
     webLink: "https://trizbea24.github.io/books-finder/",
     githubAlt: "Books finder repository",
@@ -15,8 +17,8 @@ const DATA = [
   {
     id: 2,
     title: "Harry Potter characters finder",
-    image: "",
-    skills: ["HTML", "SASS", "REACT"],
+    image: Landing,
+    skills: "HTML, SASS, React",
     githubLink: "https://github.com/TrizBea24/harry-potter-demo",
     webLink: "",
     githubAlt: "Harry Potter characters finder repository",
@@ -26,19 +28,19 @@ const DATA = [
     id: 3,
     title: "Harry Potter API",
     image: Api,
-    skills: ["PYTHON", "SQLite"],
+    skills: "PYTHON, SQLite",
     githubLink: "https://github.com/TrizBea24/harry-potter-api",
-    githubAlt: "projects.harry-potter-api-github-alt",
+    githubAlt: "Harry Potter API repository",
   },
   {
     id: 4,
-    title: "Registration Form",
-    image: "",
-    skills: ["HTML", "SASS", "JS"],
+    title: "Registration form",
+    image: Form,
+    skills: "HTML, SASS, JS",
     githubLink: "https://github.com/TrizBea24/challenge_form_frontendMentor",
     webLink: "",
-    githubAlt: "projects.registration-form-github-alt",
-    webAlt: "projects.registration-form-web-alt",
+    githubAlt: "Registration form repository",
+    webAlt: "Registration form application demo",
   }
 ];
 

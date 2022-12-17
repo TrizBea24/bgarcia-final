@@ -3,8 +3,6 @@ import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import ProjectsContainer from "./ProjectsContainer";
 import Contact from "./Contact";
-import Pruebas from "./pruebas";
-import "../styles/main.scss";
 
 const Main = (props) => {
   return (
@@ -12,7 +10,6 @@ const Main = (props) => {
       <Hero />
       <AboutMe />
       <ProjectsContainer data={props.data} />
-      <Pruebas />
       <Contact />
     </main>
   );

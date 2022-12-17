@@ -1,0 +1,15 @@
+@import "./colors";
+@import "./mixins";
+
+.projects {
+  &__title {
+    @include section-title;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 8rem;
+  }
+}

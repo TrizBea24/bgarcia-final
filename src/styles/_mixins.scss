@@ -1,0 +1,8 @@
+@mixin section-title {
+  font-weight: 700;
+  font-size: 3rem;
+  color: $hover;
+  letter-spacing: -2pt;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}

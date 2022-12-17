@@ -43,13 +43,13 @@ function Header() {
           <NavbarCollapse className="justify-content-end">
             <Nav className="navbar-right">
               <NavLink className="navbar-right__item mx-3" smooth to="#aboutme">
-                About me
+                about me
               </NavLink>
               <NavLink className="navbar-right__item mx-3" smooth to="#projects">
-                Projects
+                projects
               </NavLink>
               <NavLink className="navbar-right__item mx-3" smooth to="#contact">
-                Contact
+                contact
               </NavLink>
               <NavLink>
                 <a href="Resume_FullStack_Beatriz.pdf" target="_blank" rel="noopener noreferrer">

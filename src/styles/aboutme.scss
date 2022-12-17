@@ -1,0 +1,27 @@
+@import "./colors";
+@import "./mixins";
+
+.about {
+  display:flex;
+  flex-direction: column;
+  
+
+  &__title {
+    @include section-title;
+  }
+
+  &__description {
+    text-align:left;
+    font-size: 1.35rem;
+    font-weight: 100;
+
+    span {
+      font-weight: 600;
+      color: $title;
+    }
+  }
+
+  &__technologies {
+    margin-bottom: 8rem;
+  }
+}

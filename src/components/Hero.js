@@ -15,8 +15,8 @@ export default function Hero() {
               'Welcome to my portfolio.',
               "I'm Full Stack Developer.",
             ]}
-            multiTextDelay={1000}
-            typeSpeed={50}
+            multiTextDelay={500}
+            typeSpeed={100}
           />
         </h2>
       </section> 

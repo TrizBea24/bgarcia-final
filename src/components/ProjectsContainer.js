@@ -1,7 +1,6 @@
 import React from 'react';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import ProjectCard from "./ProjectCard";
+import "../styles/projectsContainer.scss"
 
 const ProjectsContainer = (props) => {
   const projectsContainer = props.data.map((projectItem)  => {
@@ -14,7 +13,7 @@ const ProjectsContainer = (props) => {
   
   return (
     <section className="projects" id="projects">
-      <h2 className="projects__title">Projects</h2>
+      <h3 className="projects__title">projects.</h3>
       <div className="projects__wrapper">{projectsContainer}</div>
     </section>
   );
