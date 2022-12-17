@@ -1,6 +1,12 @@
+@import "./colors";
+
 .svg-inline--fa {
     height: 5rem;
-    color: black;
+    color: $text;
+
+    &:hover {
+        color: $hover;
+    }
 }
 
 .contact {

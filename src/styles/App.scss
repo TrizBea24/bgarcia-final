@@ -1,1 +1,45 @@
+/**  Style to write description comments
+ * Stylesheet for portfolio website
+ * Author: Beatriz García
+ * Verion: 1.0.0
+ * Author URI: https://github.com/TrizBea24
+ * Comments: Developed as a final project of General Assembly Front End Development course
+**/
+
+/* General styles */
+@import "./colors";
+
+/* make the customizations */
+$theme-colors: (
+    "light": $links,
+);
+
 @import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1000&display=swap');
+
+body {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  background-color: $background;
+  color: $text; 
+  font-size: 1.50rem;
+}
+
+// nicer links
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: $links;
+
+  &:visited, 
+  &:active {
+    color: $links;
+  }
+
+  &:hover {
+    color: $hover;
+  }
+}
+

@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import { Container } from "react-bootstrap";
 import data from "./server/data";
+import "./styles/app.scss"
 
 
 function App() {

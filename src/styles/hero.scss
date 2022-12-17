@@ -1,0 +1,23 @@
+@import "./colors";
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__name {
+    margin-top: 12rem;
+    font-weight: 800;
+    font-size: 4rem;
+    color: $title;
+    letter-spacing: 0.25rem;
+  }
+
+  &__title {
+    margin-top: 0.25rem;
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: #82D0D9;
+    letter-spacing: 0.25rem;
+  }
+}

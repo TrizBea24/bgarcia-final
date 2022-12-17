@@ -1,9 +1,7 @@
 import React from 'react'
-import Nav from 'react-bootstrap/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { Stack } from 'react-bootstrap';
 import "../styles/contact.scss";
 
 

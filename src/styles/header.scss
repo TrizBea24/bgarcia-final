@@ -1,10 +1,47 @@
+@import "./colors";
+
 .bg-main {
-    background-color:#800080;
+    background-color: $background;
 }
 
 .navbar {
-    box-shadow: 0 0 5px #944b9474;
     z-index: 10;
     transition: .3s;
     font-weight: 600;
+    position: sticky;
+    top: 0px;
+    height: 6rem;
+
+
+    &.down {
+        top: -6rem;
+    }
+
+    span {
+        font-size: 1.50rem;
+    }
+
+}
+.navbar-left {
+    justify-content: center;
+    font-size: 1.50rem;
+}
+
+
+.navbar-right {
+    align-items: center;
+
+    &__item {
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+
+        &:hover, 
+        &:focus {
+            background-size: 100% 2px;
+        }
+    }
 }
