@@ -13,17 +13,11 @@
   &__info {
     display: flex;
     justify-content: space-between;
-    background-color: $secondary;
+    background-color: $background;
     height: 100px;
 
     &-text {
       width: auto;
-    }
-    
-    &-title {
-      color: $lightpink;
-      font-size:larger;
-      width: 100%;
     }
 
     &-skills {
@@ -44,4 +38,10 @@
       }
     }
   }
+}
+
+#card-title {
+  color: $lightpink;
+  font-size: 1.8rem;
+  width: 100%;
 }

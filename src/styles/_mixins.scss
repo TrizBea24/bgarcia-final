@@ -6,3 +6,9 @@
   padding-top: 2rem;
   margin-bottom: 3rem;
 }
+
+@mixin text {
+  text-align:left;
+  font-size: 1.35rem;
+  font-weight: 200;
+}

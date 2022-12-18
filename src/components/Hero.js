@@ -13,7 +13,7 @@ export default function Hero() {
             cursorColor="#F7D2F7"
             multiText={[
               'Welcome to my portfolio.',
-              "I'm Full Stack Developer.",
+              "I'm a Full Stack Developer.",
             ]}
             multiTextDelay={500}
             typeSpeed={100}

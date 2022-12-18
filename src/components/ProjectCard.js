@@ -17,7 +17,7 @@ const ProjectCards = (props) => {
         />
         <Card.Body className="card__info">
           <div className="card__info-text">
-            <Card.Title className="card__info-title">
+            <Card.Title className="card__info-title" id="card-title">
               {props.projectItem.title}
             </Card.Title>
             <Card.Text className="card__info-skills">
@@ -25,11 +25,11 @@ const ProjectCards = (props) => {
             </Card.Text>
           </div>
           <div className="card__info-link">
-            <Card.Link
+            <Card.Link target="_blank" rel="noopener noreferrer"
               href={props.projectItem.githubLink}>
               <FontAwesomeIcon icon={faGithub} />
             </Card.Link>
-            <Card.Link
+            <Card.Link target="_blank" rel="noopener noreferrer"
               href={props.projectItem.webLink}>
               <FontAwesomeIcon icon={faDesktop} />
             </Card.Link>

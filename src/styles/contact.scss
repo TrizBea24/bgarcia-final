@@ -22,6 +22,7 @@
     }
 
     &__description {
+        @include text;
         margin-bottom: 6rem;
     }
     &__sm {

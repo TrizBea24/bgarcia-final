@@ -4,24 +4,27 @@
     background-color: $background;
 }
 
-.navbar {
+.navbarmoves {
     z-index: 10;
-    transition: .3s;
     font-weight: 600;
-    position: sticky;
+    //This important is necessary to override the default style from Boostrap
+    position: fixed !important;
     top: 0px;
     height: 6rem;
-
-
-    &.down {
-        top: -6rem;
-    }
-
-    span {
-        font-size: 1.50rem;
-    }
-
+    width: 100%;
 }
+
+.visible {
+    top: 0;
+    transition: top 0.10s ease-out;
+    background-color: #190019ac;
+}
+
+.hidden {
+    top: -20rem;
+    transition: top 1s ease-out;
+}
+
 .navbar-left {
     justify-content: center;
     font-size: 1.50rem;
@@ -44,4 +47,8 @@
             background-size: 100% 2px;
         }
     }
+}
+
+#link {
+    font-size: 1.50rem;
 }
