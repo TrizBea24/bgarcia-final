@@ -16,13 +16,13 @@ const DATA = [
   },
   {
     id: 2,
-    title: "Harry Potter characters finder",
+    title: "Landing corporate page",
     image: Landing,
     skills: "HTML, SASS, React",
     githubLink: "https://github.com/TrizBea24/harry-potter-demo",
     webLink: "",
-    githubAlt: "Harry Potter characters finder repository",
-    webAlt: "Harry Potter characters finder application demo",
+    githubAlt: "Landing corporate page repository",
+    webAlt: "Landing corporate page application demo",
   },
   {
     id: 3,
@@ -30,7 +30,9 @@ const DATA = [
     image: Api,
     skills: "PYTHON, SQLite",
     githubLink: "https://github.com/TrizBea24/harry-potter-api",
+    webLink: "https://github.com/TrizBea24/harry-potter-api",
     githubAlt: "Harry Potter API repository",
+    webAlt: "API demo",
   },
   {
     id: 4,
@@ -38,7 +40,7 @@ const DATA = [
     image: Form,
     skills: "HTML, SASS, JS",
     githubLink: "https://github.com/TrizBea24/challenge_form_frontendMentor",
-    webLink: "",
+    webLink: "https://github.com/TrizBea24/challenge_form_frontendMentor",
     githubAlt: "Registration form repository",
     webAlt: "Registration form application demo",
   }

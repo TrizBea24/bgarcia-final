@@ -1,7 +1,15 @@
 @import "./colors";
 
+
+
 .bg-main {
     background-color: $background;
+}
+
+@media screen and (max-width: 992px) {
+    .bg-main {
+        background-color:brown;
+    }
 }
 
 .navbarmoves {

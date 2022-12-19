@@ -26,6 +26,7 @@ const ProjectCards = (props) => {
           </div>
           <div className="card__info-link">
             <Card.Link target="_blank" rel="noopener noreferrer"
+            // Please note not all the links are directing to the correct please
               href={props.projectItem.githubLink}>
               <FontAwesomeIcon icon={faGithub} />
             </Card.Link>

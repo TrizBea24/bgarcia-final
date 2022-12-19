@@ -4,7 +4,7 @@ import { Container, Navbar, Stack, Button, Nav } from "react-bootstrap";
 import "../styles/header.scss";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
-import "../assests/Resume_FullStack_Beatriz.pdf";
+// import "../assests/Resume_FullStack_Beatriz.pdf";
 
 function Header() {
   const [position, setPosition] = useState(window.pageYOffset)
@@ -39,7 +39,7 @@ function Header() {
               Beatriz García
             </NavLink>
           </Stack>
-          <NavbarToggle />
+          <NavbarToggle id="toggle"/>
           <NavbarCollapse className="justify-content-end">
             <Nav className="navbar-right">
               <NavLink className="navbar-right__item mx-3" smooth to="#aboutme">
@@ -51,13 +51,11 @@ function Header() {
               <NavLink className="navbar-right__item mx-3" smooth to="#contact">
                 contact
               </NavLink>
-              {/* <NavLink href="Resume_FullStack_Beatriz.pdf" target="_blank" rel="noopener noreferrer"> */}
                 <a href="Resume_FullStack_Beatriz.pdf" target="_blank" rel="noopener noreferrer">
                   <Button id="link" className="navbar-right__button mx-3" variant="outline-light">
                     Resume
                   </Button>
                 </a>
-              {/* </NavLink> */}
             </Nav>
           </NavbarCollapse>
         </Container>
