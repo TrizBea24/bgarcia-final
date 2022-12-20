@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8560fbc2.css",
+    "main.js": "./static/js/main.f8c1ed72.js",
+    "static/js/787.d8efa3e1.chunk.js": "./static/js/787.d8efa3e1.chunk.js",
+    "static/media/01-books-finder.PNG": "./static/media/01-books-finder.b39aaa3d67950d138afc.PNG",
+    "static/media/02-landing.png": "./static/media/02-landing.06572a27ae862c99e00e.png",
+    "static/media/04-form.png": "./static/media/04-form.c13796f65d5b08f20626.png",
+    "static/media/03-api.png": "./static/media/03-api.e4fec4f49c3cb57ac37d.png",
+    "index.html": "./index.html",
+    "main.8560fbc2.css.map": "./static/css/main.8560fbc2.css.map",
+    "main.f8c1ed72.js.map": "./static/js/main.f8c1ed72.js.map",
+    "787.d8efa3e1.chunk.js.map": "./static/js/787.d8efa3e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8560fbc2.css",
+    "static/js/main.f8c1ed72.js"
+  ]
+}
