@@ -27,20 +27,20 @@ function Header() {
   return (
     <>
       <Navbar
-        className={`px-5 py-4 navbarmoves ${navbarMoves}`}
+        className={`navbarmoves ${navbarMoves}`}
         expand="lg"
         variant="dark"
         bg="main"
         collapseOnSelect
       >
-        <Container fluid>
-          <Stack className="navbar-left">
-            <NavLink className="navbar-left__name" smooth to="#hero">
-              Beatriz García
-            </NavLink>
-          </Stack>
-          <NavbarToggle id="toggle"/>
+        <Container fluid className="wrapper">
+          <NavbarToggle className="toggle"/>
           <NavbarCollapse className="justify-content-end">
+            <Stack className="navbar-left">
+              <NavLink className="navbar-left__name" smooth to="#hero">
+                Beatriz García
+              </NavLink>
+            </Stack>
             <Nav className="navbar-right">
               <NavLink className="navbar-right__item mx-3" smooth to="#aboutme">
                 about me

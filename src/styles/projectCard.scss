@@ -8,7 +8,7 @@
   border-radius: 5px !important;
 
   &__image {
-    height: 17.5rem;
+    height: auto;
     width: 100%;
     border-radius: 0px !important;
   }
@@ -48,4 +48,39 @@
   font-size: 1.8rem;
   font-weight: 600;
   width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  #card-title {
+    color: $projecttitle;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .card {
+    &__info {
+      display: flex;
+      justify-content: space-between;
+      background-color: $secondary;
+      height: 80px;
+
+      &-skills {
+        display: flex;
+        flex-direction: row;
+        color: $text;
+        font-size: 1rem;
+      }
+
+      &-link {
+        display: flex;
+        justify-content: flex-end;
+        width: 10px;
+
+        .svg-inline--fa {
+          height: 2rem;
+          color: $text;
+        }
+      }
+    }
+  }
 }
