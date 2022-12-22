@@ -8,7 +8,7 @@ This is an exercise for General Assembly Web Development Course. This exercise i
 ## Demo
 
 To check the result of the web page's development, please check the next link: 
-https://trizbea24.github.io/beatriz-garcia-portfolio/
+https://trizbea24.github.io/bgarcia-final/
 
 ## Development
 
