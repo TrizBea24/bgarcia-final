@@ -1,4 +1,4 @@
-# Personla portfolio application
+# Personal portfolio application
 Version: 1.0.0
 Author: Beatriz García
 Author URI: https://github.com/TrizBea24
