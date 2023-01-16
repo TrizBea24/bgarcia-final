@@ -17,17 +17,17 @@ const Contact = () => {
         <ul as="ul" className="contact__sm">
           <li as="li" className="contact__sm-item">
             <a href="https://www.linkedin.com/in/beatrizgarcmar/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedinIn} className="contact__sm-item"/>
+              <FontAwesomeIcon icon={faLinkedinIn} className="contact__sm-item" title="Go to my Linkedin profile"/>
             </a>
           </li>
           <li as="li" className="contact__sm-item">
             <a href="https://github.com/TrizBea24" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} title="Go to my Github profile" />
             </a>
           </li>
           <li as="li" className="contact__sm-item" target="_blank" rel="noopener noreferrer">
             <a href="mailto:beatriz.garcia.martin24@gmail.com">
-              <FontAwesomeIcon icon={faEnvelope} />
+              <FontAwesomeIcon icon={faEnvelope} title="Send me an email here" />
             </a>
           </li>
         </ul>

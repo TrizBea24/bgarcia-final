@@ -30,9 +30,9 @@ const DATA = [
     image: Api,
     skills: "PYTHON, SQLite",
     githubLink: "https://github.com/TrizBea24/harry-potter-api",
-    webLink: "https://github.com/TrizBea24/harry-potter-api",
+    webLink: "",
     githubAlt: "Harry Potter API repository",
-    webAlt: "API demo",
+    webAlt: "",
   },
   {
     id: 4,

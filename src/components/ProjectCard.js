@@ -26,14 +26,14 @@ const ProjectCards = (props) => {
           </div>
           <div className="card__info-link">
             <Card.Link target="_blank" rel="noopener noreferrer"
-            // Please note not all the links are directing to the correct please
               href={props.projectItem.githubLink}>
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} title={props.projectItem.githubAlt} />
             </Card.Link>
-            <Card.Link target="_blank" rel="noopener noreferrer"
-              href={props.projectItem.webLink}>
-              <FontAwesomeIcon icon={faDesktop} />
-            </Card.Link>
+            { //Check if actual year is 2022
+            (props.projectItem.id !== 3)
+              ? <Card.Link target="_blank" rel="noopener noreferrer" href={props.projectItem.webLink}> <FontAwesomeIcon icon={faDesktop} title={props.projectItem.webAlt} /> </Card.Link>
+              : null
+            }
           </div>
         </Card.Body>
       </Card>
